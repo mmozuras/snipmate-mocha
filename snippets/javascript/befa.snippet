@@ -1,3 +1,4 @@
-before (${1:done}, function() {
+before(function(${1:done}){
   ${2}
-})
+	$1();
+});
